@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP к531ие14
+D 4 (3 + 1 ) bits presettable BCD counter
+K TTL CNT CNT4
+$ENDCMP
+#
+#End Doc Library
