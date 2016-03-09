@@ -1,4 +1,4 @@
-update=Ср. 09 марта 2016 16:04:15
+update=Ср. 09 марта 2016 17:11:02
 version=1
 last_client=kicad
 [general]
@@ -65,3 +65,5 @@ LibName31=lib/к155кп1
 LibName32=lib/7805
 LibName33=lib/к531ие14
 LibName34=lib/к1533ие2
+LibName35=lib/к155ир15
+LibName36=lib/к155ла3
