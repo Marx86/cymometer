@@ -1,4 +1,4 @@
-update=Ср. 09 марта 2016 17:22:04
+update=Чт. 10 марта 2016 11:32:02
 version=1
 last_client=kicad
 [general]
@@ -68,3 +68,4 @@ LibName34=lib/к531ие14
 LibName35=lib/к1533ие2
 LibName36=lib/к155ир15
 LibName37=lib/к155ла3
+LibName38=lib/GND
