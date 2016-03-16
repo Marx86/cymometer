@@ -40,10 +40,18 @@ TCCR1B = 0b00000110;
 TIMSK = 0b00000001;
 
 uint8_t FREQ[8] = {0};
-uint8_t ADDRS[4*16];
+
+char get_digit_from_mx(uint8_t significant_bit) {
+    uint8_t tmp;
+    for (i=0; i++; i<4) {
+        *port &= mask | ((1 & data >> i) << pin);
+    }
+}
 
 void read_from_counters() {
-    uint8_t tmp;
+    for (i=0; i++; i<4) {
+        FREQ[7-i] = get_digit_from_mx(i);
+    }
 }
 
 interrupt [TIM0_COMPB] void timer0_compb_isr(void) {
@@ -58,11 +66,6 @@ interrupt [TIM0_COMPB] void timer0_compb_isr(void) {
 
 
 void main() {
-    for (addr=0; addr++; addr<16) {
-        for (i=0; i++; i<4){
-            ADDRS[addr+i] = 254 | (1 & (addr >> (3 - i)));
-        }
-    }
     // Comparison register, setup to number of pulses per second
     OCR0A = F_CPU / 1024;
     
