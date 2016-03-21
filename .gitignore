@@ -9,7 +9,7 @@
 *.pch
 
 # Libraries
-*.lib
+src/*.lib
 *.a
 *.la
 *.lo
@@ -33,3 +33,5 @@
 
 # kicad
 *.bak
+*-bak
+*-cache.lib
