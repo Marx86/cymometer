@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP к155ид10
+D Decoder 1 to 10, Open Collect.
+K TTL DECOD10 OpenColl
+$ENDCMP
+#
+#End Doc Library
