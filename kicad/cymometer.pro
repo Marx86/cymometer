@@ -1,4 +1,4 @@
-update=Вт. 22 марта 2016 12:20:41
+update=Чт. 21 апр. 2016 14:43:26
 version=1
 last_client=kicad
 [general]
@@ -77,3 +77,4 @@ LibName43=opto
 LibName44=atmel
 LibName45=contrib
 LibName46=valves
+LibName47=/home/max/stm32
