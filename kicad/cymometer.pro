@@ -1,4 +1,4 @@
-update=Чт. 21 апр. 2016 14:43:26
+update=Пн. 06 июня 2016 11:18:06
 version=1
 last_client=kicad
 [general]
@@ -78,3 +78,4 @@ LibName44=atmel
 LibName45=contrib
 LibName46=valves
 LibName47=/home/max/stm32
+LibName48=lib/switch_3

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/max/projects/cymometer/kicad/cymometer.sch</source>
+    <source>cymometer.sch</source>
     <date>Пн. 16 мая 2016 12:23:27</date>
     <tool>Eeschema 4.0.2-4+6225~38~ubuntu15.10.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
