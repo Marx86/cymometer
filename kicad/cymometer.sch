@@ -244,7 +244,7 @@ U 1 1 56D4419E
 P 4200 5050
 F 0 "C8" H 4330 4970 50  0000 C CNN
 F 1 "CTRIM" H 4350 4890 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer-Piher_PT15-V12-5_horizontal" H 4200 5050 60  0001 C CNN
+F 2 "cymometer:кпк-мп" H 4200 5050 60  0001 C CNN
 F 3 "" H 4200 5050 60  0000 C CNN
 	1    4200 5050
 	-1   0    0    -1  
